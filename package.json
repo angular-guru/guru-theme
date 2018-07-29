@@ -1,0 +1,39 @@
+{
+  "name": "@angular-guru/guru-theme",
+  "version": "0.1.0",
+  "description": "Guru Bootstrap 4 Theme",
+  "main": "dist/theme.css",
+  "scripts": {
+    "start": "webpack --progress --watch --mode development",
+    "build": "webpack --progress --mode production"
+  },
+  "keywords": [
+    "angular",
+    "bootstrap",
+    "theme",
+    "guru",
+    "css"
+  ],
+  "author": "Ashley Hunter",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.1.2"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashh640/guru-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ashh640/guru-theme/issues"
+  },
+  "homepage": "https://github.com/ashh640/guru-theme#readme"
+}

@@ -1,0 +1,18 @@
+@include media-breakpoint-down(xs) { 
+    .navbar-collapse {
+        &.show {
+            padding: 5px 20px;
+            background-color: $primary;
+            box-shadow: $box-shadow;
+        }
+    }
+
+    .bg-white {
+        .navbar-collapse {
+            &.show {
+                background-color: $white;
+                box-shadow: none;
+            }
+        }
+    }
+}
